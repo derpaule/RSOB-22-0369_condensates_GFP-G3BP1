@@ -15,10 +15,9 @@ link-citations: yes
 knitr::opts_chunk$set(message=FALSE, include=TRUE, echo = TRUE, warning=FALSE)
 ```
 # Info
-Supplemental data on [DRYAD](https://doi.org/10.5061/dryad.k98sf7mb8). The experimental data, initial Cellprofiler and data analysis was performed by MD Panas using Excel and Prism. This script was established to analyze how granule size depends on GFP expression levels. This was requested by one of the referees when we submitted our work initially to Molecular Cell.
+Supplemental data on [DRYAD](https://doi.org/10.5061/dryad.k98sf7mb8). The experimental data, initial Cellprofiler and data analysis was performed by MD Panas using Excel and Prism. This script was established to analyze how granule size depends on GFP expression levels.
 
-Cellprofiler pipelines were deposited on [DRYAD](https://doi.org/10.5061/dryad.k98sf7mb8). Note: Images w3 were offset from w2 images by 4px which was corrected using Fiji using batch processing - the macro file is also found on DRYAD.
-Other programs used: https://imagemagick.org/ to superimpose and automatically highlight/center picked cells
+Cellprofiler pipelines were deposited on [DRYAD](https://doi.org/10.5061/dryad.k98sf7mb8).
 
 ```{r loadXlibs, message=FALSE, include=TRUE, echo = TRUE, warning=FALSE}
 library(ggplot2)
